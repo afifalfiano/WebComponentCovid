@@ -1,27 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Komponen</title>
-    <link rel="stylesheet" href="styles/styles.css">
-</head>
-<body>
-    <nav>
-        <ul class="navbar">
-            <li class="navbar-list"><a href="#" class="active">Home</a></li>
-            <li class="navbar-list"><a href="#">Profile</a></li>
-            <li class="navbar-list"><a href="#">Article</a></li>
-            <li class="navbar-list"><a href="#">About Us</a></li>
-        </ul>
-    </nav>
-    <section>
-        <div id="section-bar">
-            <h2 class="h2-section">Selamat Datang</h2>
-            <p class="p-section">Tetap Waspada dan Jaga Kesehatan!</p>
-            <p class="p-decs">Kita harus bersama-sama bekerja sama untuk menekan laju pertumbuhan virus covid dan memutus mata rantai covid ini.</p>
-            <button type="submit" class="info-section">Baca Selengkapnya</button>
-        </div>
-    </section>
-</body>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <nav-bar></nav-bar>
+    <section-bar></section-bar>
+
+    <script src="src/component/navbar.js"></script>
+    <script src="src/component/section-bar.js"></script>
+  </body>
 </html>
